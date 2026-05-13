@@ -93,5 +93,7 @@ tuner=ModelFineTuner.from_pretrained(
 
 # 可改进的地方
 1.`ModelFineTuner.py`文件还有很大的提升空间。可以问问AI，可以怎么优化。
+
 2.可以优化提示词，引入思维链。和提示词有关的文件有`preprocessing.py`、`system.py`、`Prompt.py`。
+
 3.可以参照上述方法，用于其他的数据集。
