@@ -71,6 +71,7 @@ system=TestSystem(
     test_file_name_or_path="test/test_1.csv",   # 测试集路径
     lora_adapter_name_or_path=None,   # LoRA适配器文件路径，由ModelFineTuner.py生成，可不填
 )
+system.execute()    # 执行
 ```
 运行完成后，可在`test_reports`文件夹中查看测试结果,包括准确率、精确率、召回率、F1值、推理时间等。
 
@@ -88,6 +89,7 @@ tuner=ModelFineTuner.from_pretrained(
     lora_config=None,
     training_args=None,
 )
+tuner.train()    # 开始训练
 ```
 运行完成后，可在`Qwen`文件夹中找到对应的LoRA适配器文件，在`lora_reports`文件夹中查看微调结果。
 
