@@ -9,7 +9,7 @@ load_model(
 ```
 运行完成后，可在`Qwen`文件夹中查看下载的模型
 
-`model_name`可填`Qwen2.5-1.5b-instruct`或`Qwen3-1.7B`等。
+`model_name`可填`Qwen2.5-1.5B-Instruct`或`Qwen3-1.7B`等。
 
 # 处理数据集
 以`raw_datasets`中的`Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`为例，将数据集的数值特征映射为文本描述。
