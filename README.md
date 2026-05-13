@@ -1,3 +1,11 @@
+# 文件说明
+- `Prompt.py`用于把流量样本映射为文本描述
+- `preprocessing.py`用于处理数据集
+- `load_model.py`用于下载大模型
+- `system.py`用于在测试集上测试大模型性能
+- `ModelFineTuner.py`用于微调大模型（SFT+LoRA）
+- `日志文件`：带log后缀的是日志文件，可删除
+
 # 下载大模型
 在`main.py`文件中运行：
 ```python
